@@ -1,0 +1,145 @@
+body {
+  background-color: var(--secondary);
+}
+
+.btn {
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.2s opacity;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: 2px solid var(--primary);
+}
+
+.btn-reverse-primary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background-color: var(--deep-blue);
+}
+
+.card {
+  border-radius: 20px;
+  background-color: white;
+}
+
+header {
+  background-color: var(--deep-blue);
+  color: orange;
+}
+
+.bg-w {
+  background-color: white;
+}
+.bg-db {
+  background-color: var(--deep-blue);
+}
+
+.mh-all {
+  min-height: 100vh;
+}
+
+.c-w {
+  color: white;
+}
+
+.c-o {
+  color: orange;
+}
+
+.c-p {
+  color: var(--primary);
+}
+
+.card-img {
+  width: 100px;
+  align-self: center;
+}
+
+button {
+  border: 3px solid var(--deep-blue);
+  color: var(--deep-blue);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 15px;
+  background-color: white;
+  cursor: pointer;
+  // &:hover {
+  //   background-color: rgb(216, 216, 216);
+  // }
+}
+.bb-primary {
+  border-bottom: 2px solid var(--primary);
+}
+
+header hr {
+  width: 100%;
+  border: 1px solid var(--primary);
+}
+
+.c-r {
+  color: red;
+}
+
+.ConnectBack {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.ConnectInput {
+  background-color: transparent;
+  min-width: 300px;
+  width: fit-content;
+  border: none;
+  color: var(--primary);
+  padding: 10px;
+  border-radius: 50px;
+  border: 2px solid var(--primary);
+  outline: none;
+  &::placeholder {
+    color: var(--primary);
+    opacity: 0.5;
+  }
+}
+
+.UsersList {
+  background-color: var(--secondary);
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  min-width: 50%;
+}
+
+.UserItem {
+  p:hover {
+    cursor: pointer;
+    color: rgb(251, 255, 0);
+    font-weight: 700;
+  }
+}
+
+.w-fc {
+  width: fit-content;
+}
+
+.border-primary {
+  border: 1px solid var(--primary);
+}
+
+.calc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;
+}

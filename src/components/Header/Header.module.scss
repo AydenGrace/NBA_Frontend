@@ -1,0 +1,25 @@
+@use "../../assets/styles/mixin" as mixin;
+
+header {
+  position: relative;
+  @include mixin.sm-lt {
+    width: 94%;
+  }
+  .nav {
+    @include mixin.sm-lt {
+      display: none;
+    }
+  }
+  .mobileHeader {
+    font-size: 2.2rem;
+    display: none;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+    @include mixin.sm-lt {
+      display: block;
+      font-size: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@use "../../assets/styles/mixin" as mixin;
+
+.searchBar {
+  display: flex;
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+  min-width: 200px;
+  min-height: 10px;
+  border: 2px solid var(--primary);
+  border-radius: 100px;
+  gap: 10px;
+  padding: 10px;
+  @include mixin.sm-lt {
+    padding: 5px 7px;
+    min-width: 150px;
+  }
+  input {
+    background-color: transparent;
+    min-width: 200px;
+    width: fit-content;
+    border: none;
+    color: var(--primary);
+    outline: none;
+    @include mixin.sm-lt {
+      min-width: 150px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@use "../../assets/styles/mixin" as mixin;
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  @include mixin.sm-lt {
+    width: 90%;
+  }
+  .nav {
+    @include mixin.sm-lt {
+      display: none;
+    }
+  }
+}

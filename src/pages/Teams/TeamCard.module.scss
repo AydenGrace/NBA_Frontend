@@ -1,0 +1,10 @@
+.Teamcard {
+  position: relative;
+  cursor: auto;
+  .like {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+}
